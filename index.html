@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market Guide - Learn Investing Basics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1>Stock Market Guide</h1>
+            <ul class="nav-links">
+                <li><a href="#basics">Basics</a></li>
+                <li><a href="#market-data">Market Data</a></li>
+                <li><a href="#newsletter">Newsletter</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h2>Master the Stock Market</h2>
+                <p>Learn the fundamentals of investing and build your financial future with confidence.</p>
+                <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800" alt="Stock market charts and financial data displayed on computer screens showing trading activity">
+            </div>
+        </section>
+
+        <section id="basics" class="content-section">
+            <h2>Understanding Stock Market Basics</h2>
+            
+            <h3>What is the Stock Market?</h3>
+            <p>The stock market is a collection of markets where stocks (pieces of ownership in businesses) are bought and sold. It serves as a vital component of a free-market economy by providing companies with access to capital in exchange for giving investors a slice of ownership. Major stock exchanges like the <a href="https://www.nyse.com" target="_blank" rel="noopener">New York Stock Exchange (NYSE)</a> and <a href="https://www.nasdaq.com" target="_blank" rel="noopener">NASDAQ</a> facilitate billions of dollars in trades daily.</p>
+
+            <h3>How Does Investing Work?</h3>
+            <p>When you buy a stock, you become a shareholder in that company. As the company grows and becomes more profitable, the value of your shares typically increases. You can profit in two ways: through capital appreciation (selling shares at a higher price than you bought them) or through dividends (regular payments companies make to shareholders from their profits).</p>
+
+            <h3>Key Concepts for Beginners</h3>
+            <p>Before diving into investing, it's crucial to understand fundamental concepts like diversification, risk tolerance, and long-term thinking. The stock market historically trends upward over time, but experiences volatility in the short term. Successful investors focus on their goals, maintain a balanced portfolio, and avoid making emotional decisions based on market fluctuations.</p>
+
+            <h3>Essential Trading Tips</h3>
+            <ul class="tips-list">
+                <li><strong>Start with index funds:</strong> These provide instant diversification and lower risk for beginners</li>
+                <li><strong>Invest consistently:</strong> Dollar-cost averaging helps smooth out market volatility over time</li>
+                <li><strong>Do your research:</strong> Understand what you're investing in before committing your money</li>
+                <li><strong>Keep emotions in check:</strong> Fear and greed are the enemies of successful investing</li>
+                <li><strong>Think long-term:</strong> The stock market rewards patient investors who can weather short-term storms</li>
+                <li><strong>Never invest money you can't afford to lose:</strong> Only use funds you won't need for at least 5 years</li>
+            </ul>
+        </section>
+
+        <section id="market-data" class="content-section">
+            <h2>Today's Top Market Movers</h2>
+            <div class="table-container">
+                <table class="stock-table">
+                    <thead>
+                        <tr>
+                            <th>Symbol</th>
+                            <th>Company</th>
+                            <th>Price</th>
+                            <th>Change</th>
+                            <th>% Change</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>AAPL</td>
+                            <td>Apple Inc.</td>
+                            <td>$185.42</td>
+                            <td class="positive">+2.34</td>
+                            <td class="positive">+1.28%</td>
+                        </tr>
+                        <tr>
+                            <td>MSFT</td>
+                            <td>Microsoft Corp.</td>
+                            <td>$378.91</td>
+                            <td class="positive">+5.67</td>
+                            <td class="positive">+1.52%</td>
+                        </tr>
+                        <tr>
+                            <td>GOOGL</td>
+                            <td>Alphabet Inc.</td>
+                            <td>$142.15</td>
+                            <td class="negative">-1.23</td>
+                            <td class="negative">-0.86%</td>
+                        </tr>
+                        <tr>
+                            <td>AMZN</td>
+                            <td>Amazon.com Inc.</td>
+                            <td>$178.34</td>
+                            <td class="positive">+3.45</td>
+                            <td class="positive">+1.97%</td>
+                        </tr>
+                        <tr>
+                            <td>TSLA</td>
+                            <td>Tesla Inc.</td>
+                            <td>$248.67</td>
+                            <td class="negative">-4.23</td>
+                            <td class="negative">-1.67%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="disclaimer"><em>Note: This is sample data for educational purposes only and does not represent real market prices.</em></p>
+        </section>
+
+        <section id="newsletter" class="content-section newsletter-section">
+            <h2>Stay Updated with Market Insights</h2>
+            <p>Get weekly stock market analysis, investment tips, and economic news delivered straight to your inbox.</p>
+            
+            <form id="newsletter-form" class="newsletter-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="John Doe" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="experience">Investing Experience</label>
+                    <select id="experience" name="experience" required>
+                        <option value="">Select your level</option>
+                        <option value="beginner">Beginner</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="advanced">Advanced</option>
+                    </select>
+                </div>
+                
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I agree to receive marketing emails and understand I can unsubscribe at any time</label>
+                </div>
+                
+                <button type="submit" class="submit-btn">Subscribe to Newsletter</button>
+            </form>
+            
+            <div id="form-message" class="form-message"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Stock Market Guide. All rights reserved.</p>
+            <p>Disclaimer: This website is for educational purposes only. Not financial advice.</p>
+            <div class="footer-links">
+                <a href="#basics">About</a> | 
+                <a href="#market-data">Data</a> | 
+                <a href="#newsletter">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
